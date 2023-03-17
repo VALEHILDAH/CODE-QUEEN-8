@@ -1,0 +1,21 @@
+.container{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:20px;
+    grid-template-rows: 40px 60px 20px;
+    justify-content:space-between;
+}
+/*descendant selector(instructing mother div to make changes to the inner divs)*/
+.container>div{
+    background-color: orange;
+}
+.container>div>p{
+text-decoration: wavy;
+color:aquamarine;
+
+}
+.container>p{
+    text-decoration: wavy;
+    color: aqua;
+}

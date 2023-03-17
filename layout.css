@@ -1,0 +1,48 @@
+.mother{
+    background-color: aquamarine;
+    height: 800px;
+    width: 1000px;
+    margin:auto;
+}
+.sister{
+  background-color: red;
+  height: 400px;
+  width: 800px; 
+  margin: 50px;
+
+}
+.child{
+    background-color:brown;
+    height: 400px;
+    width: 400px;
+   
+}
+.first{
+    float: left;
+    background-color: white;
+}
+.second{
+    float: right;
+    background-color: blue;
+/*twitter logo*/   
+}
+.logo{
+    padding-top: 50px;
+    padding-left: 180px;
+    padding-left: 200px;
+    
+}
+.puppy{
+    height:200px;
+    width:200px;
+    padding-left: 100px;;
+}
+.write{
+    border:0px;
+    box-shadow: 1px 2px 1px royalblue;
+    padding:20px;
+    width:200px;
+    margin-left: 100px;
+    border-radius: 5px;
+    color:gray;
+}
